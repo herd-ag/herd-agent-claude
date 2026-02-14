@@ -1,6 +1,6 @@
 """Herd execution adapter for Claude Code CLI.
 
-Part of The Herd ecosystem: https://github.com/dbt-conceptual/herd-core
+Part of The Herd ecosystem: https://github.com/herd-ag/herd-core
 """
 
 from herd_agent_claude.adapter import ClaudeAgentAdapter

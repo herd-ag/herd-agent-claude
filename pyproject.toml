@@ -10,16 +10,27 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 authors = [{ name = "Faust Eriksen" }]
-keywords = ["ai", "agents", "herd", "claude", "anthropic"]
+keywords = [
+    "ai", "agents", "governance", "herd", "claude", "claude-code",
+    "agent-framework", "execution-adapter"
+]
 classifiers = [
     "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
 ]
 dependencies = ["herd-core>=0.0.1"]
 
 [project.urls]
+Homepage = "https://github.com/dbt-conceptual/herd-agent-claude"
 Repository = "https://github.com/dbt-conceptual/herd-agent-claude"
+Issues = "https://github.com/dbt-conceptual/herd-agent-claude/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0", "pytest-mock>=3.0"]

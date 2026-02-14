@@ -24,6 +24,7 @@ wheels/
 venv/
 ENV/
 env/
+.venv/
 
 # Testing
 .pytest_cache/
@@ -41,3 +42,10 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Environment
+.env

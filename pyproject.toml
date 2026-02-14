@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Herd execution adapter for Claude Code CLI — implements AgentAdapter protocol."
 readme = "README.md"
 license = "MIT"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 authors = [{ name = "Faust Eriksen" }]
 keywords = [
     "ai", "agents", "governance", "herd", "claude", "claude-code",

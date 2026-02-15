@@ -2,7 +2,7 @@
 
 Herd execution adapter for [Claude Code CLI](https://github.com/anthropics/claude-code).
 
-Implements the `AgentAdapter` protocol from [herd-core](https://github.com/dbt-conceptual/herd-core) to spawn, manage, and track Claude-powered agent instances in isolated git worktrees.
+Implements the `AgentAdapter` protocol from [herd-core](https://github.com/herd-ag/herd-core) to spawn, manage, and track Claude-powered agent instances in isolated git worktrees.
 
 Part of [The Herd](https://github.com/herd-ag/herd-core) ecosystem.
 
